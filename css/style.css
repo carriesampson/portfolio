@@ -67,3 +67,7 @@ img {
 .smallIcon {
   max-height: 80px;
 }
+
+.logo a {
+  text-decoration: none;
+}
