@@ -71,3 +71,54 @@ img {
 a {
   text-decoration: none;
 }
+
+.projects {
+  padding-top: 20px;
+  padding-left:10px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projectRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.video {
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  font-family: 'Rosario', serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: 'Rosario', serif;
+  color: white;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 20px;
+  color: #2FC1E8;
+  height: 30px;
+}
