@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Rosario');
+
+/* * {
+  border: 1px solid gold;
+} */
+
+body {
+  background: #3D3D3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.topContainer {
+  padding-left:10px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Rosario', sans-serif;
+  Font-size: 42px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.brandStatement {
+  font-family: 'Rosario', sans-serif;
+  Font-size: 18px;
+  color: white;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.navigation {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  max-height: 200px;
+  padding: 10px;
+}
