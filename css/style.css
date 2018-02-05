@@ -13,9 +13,10 @@ body {
 }
 
 .topContainer {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left:10px;
   padding-right: 15px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +43,8 @@ h1 {
 }
 
 .navigation {
-  padding-top: 25px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -51,7 +53,8 @@ h1 {
 
 img {
   max-height: 200px;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .resume {
@@ -106,7 +109,7 @@ h4 {
 p {
   font-family: 'Rosario', serif;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .footer {
@@ -115,8 +118,8 @@ p {
   justify-content: center;
   max-width: 1000px;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-family: 'Rosario', sans-serif;
   font-size: 20px;
   color: #2FC1E8;
